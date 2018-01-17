@@ -39,6 +39,7 @@ dependencies:
   - views_templates
   - tour
   - automated_cron
+  - address
   - contact_block
   - contact_storage
   - paragraphs
