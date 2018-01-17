@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: text_and_image_block
+label: 'Text and Image Block'
+revision: 0
+description: 'Displays text on the left and an image on the right. (Opposite of the Image and Text Block)'

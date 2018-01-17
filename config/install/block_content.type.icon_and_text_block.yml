@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: icon_and_text_block
+label: 'Icon and Text Block'
+revision: 0
+description: 'Displays an icon on the left and text on the right along with an optional link below the text.'
