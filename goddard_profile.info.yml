@@ -39,6 +39,12 @@ dependencies:
   - views_templates
   - tour
   - automated_cron
+  - contact_block
+  - contact_storage
+  - paragraphs
+  - address
+  - entity_reference_revisions
+  - pathauto
 themes:
   - goddard_uswds_sub
   - uswds
