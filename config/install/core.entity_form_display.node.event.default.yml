@@ -10,7 +10,6 @@ dependencies:
     - field.field.node.event.field_time_zones
     - node.type.event
   module:
-    - address
     - datetime
     - path
     - text
@@ -59,9 +58,10 @@ content:
   field_event_location:
     weight: 3
     settings:
-      default_country: null
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: address_default
+    type: string_textfield
     region: content
   field_time_zones:
     weight: 5

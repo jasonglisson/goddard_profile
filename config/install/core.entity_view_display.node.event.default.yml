@@ -10,7 +10,6 @@ dependencies:
     - field.field.node.event.field_time_zones
     - node.type.event
   module:
-    - address
     - datetime
     - options
     - text
@@ -55,9 +54,10 @@ content:
   field_event_location:
     weight: 4
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: address_default
+    type: string
     region: content
   field_time_zones:
     weight: 6

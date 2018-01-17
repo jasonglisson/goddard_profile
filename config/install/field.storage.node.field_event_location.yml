@@ -2,14 +2,16 @@ langcode: en
 status: true
 dependencies:
   module:
-    - address
     - node
 id: node.field_event_location
 field_name: field_event_location
 entity_type: node
-type: address
-settings: {  }
-module: address
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true
