@@ -42,7 +42,6 @@ dependencies:
   - contact_block
   - contact_storage
   - paragraphs
-  - address
   - entity_reference_revisions
   - pathauto
 themes:
