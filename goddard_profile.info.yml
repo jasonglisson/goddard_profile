@@ -44,7 +44,10 @@ dependencies:
   - paragraphs
   - entity_reference_revisions
   - pathauto
+  - devel
 themes:
   - goddard_uswds_sub
   - uswds
   - seven
+  - bartik
+  - classy
